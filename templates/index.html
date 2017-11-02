@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+ <html>
+<!-- START HEADER -->
+	 <head>
+		  <meta charset="utf-8">
+		  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link href="templates/css/style.css" rel="stylesheet" media="screen">
+		  <link href="templates/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	  <link rel="shortcut icon" href="templates/images/favicon.ico" type="image/x-icon">
+	  <title>АРЕНДА.Услуги строительной техники</title>
+	  </head>
+	 <body>
+		 <div class="container-fluid header">
+	<div class="row header-line__black">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
+	</div>
+	<div class="row header-content">
+		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 header-logo">
+			<img src="templates/images/logo.png" align="right">
+		</div>
+		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 header-text">
+			<h4> Услуги 
+			<br>строительной техники</h4>
+		</div>
+		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 header-contact">
+			<h6>г. Екатеринбург, ул.Маяковского, 25
+				<br> +7 (343) 222-20-17
+			</h6>
+		</div>
+	</div>
+</div>
+<div class="container-fluid menu">
+	<div class="row menu-wrapper" >
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 menu-img">
+			<img src="templates/images/icon.png" align="right">
+		</div>	
+		<div class="col-xs-8 col-sm-8 col-md-8 col-lg-6 menu-links">
+			<ul type="none">
+				<li><a href="#"> Каталог техники</a></li>
+				<li><a href="#"> Услуги</a></li>
+				<li><a href="#"> Выполненные работы</a></li>
+				<li><a href="#"> О компании</a></li>
+				<li><a href="#"> Контакты</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- END HEADER -->	 
+		{% include 'slider.html' %}
+		{% include 'acordion.html' %}
+<!--START SERVICE -->
+		<div class="container-fluid service-wrapper" >
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12  col-lg-12 service-header">
+			<span> УСЛУГИ</span>
+		</div>
+	</div>
+	<div class="row service-content">
+		<div class="service-content_row">
+			<div class="service__img"></div>
+			<div class="service__txt">
+				<span> ЗАСЫПКА ТРАНШЕЙ</span>
+				Нашей компанией осуществляется
+				<br> засыпка траншей в Екатеринбурге,
+				<br> востребованная предприятиями и
+				<br> частными лицами.
+			</div>
+			<div class="service__img"></div>
+			<div class="service__txt">
+				<span> ВЫВОЗ МУСОРА</span>
+				Вывоз мусра - составляющая
+				<br> деятельности производств и бытовых предприятий.
+			</div>
+		</div>
+		<div class="service-content_row">
+			<div class="service__img"></div>
+			<div class="service__txt">
+				<span>ДОСТАВКА</span>
+				Отсев образуется после разработки
+				<br> твердых горных пород и является
+				<br> востребованным материалом в 
+				<br> строительстве.
+			</div>
+			<div class="service__img"></div>
+			<div class="service__txt">
+				<span> ПОДЪЕМ ГРУЗОВ</span>
+				Выполнение широкого спектра
+				<br> высотных операций сложно
+				<br> представить без специализи-
+				<br>рованной техники.
+			</div>
+		</div>
+	</div>
+</div>
+<!--END SERVICE -->
+		{% include 'maps.html' %}
+	<div class="container-fluid footer">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+			<div class="row footer-wrap">
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 footer-img"></div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 footer-links">
+				<ul type="none">
+					<li><a href="#" id="main"> Главная</a></li>
+					<li><a href="#" id="catalog"> Каталог техники</a></li>
+					<li><a href="#" id="service"> Услуги</a></li>
+					<br><li><a href="#" id="example"> Выполненные работы</a></li>
+					<li><a href="#" id="about"> О компании</a></li>
+					<li><a href="#" id="contact"> Контакты</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 footer-logo">
+				<span> © Айтекс start 2016 </span>
+				<br><a href="http://www.itexstart.ru/">  itexstart.ru</a>
+			</div>
+				
+			</div>
+		</div>
+	</div>
+</div>	 
+		 
+	 <script src="templates/js/jquery.min.js"></script>
+	 <script src="templates/js/main.js"></script>
+	 </body>
+ 
+</html>
